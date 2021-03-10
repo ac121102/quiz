@@ -74,11 +74,16 @@ function showScores() {
 
 // create questions here
 var questions = [
-    new Question("Hyper Text Markup Language Stand For?", ["JavaScript", "XHTML","CSS", "HTML"], "HTML"),
-    new Question("Which language is used for styling web pages?", ["HTML", "JQuery", "CSS", "XML"], "CSS"),
-    new Question("Which is not a JavaScript Framework?", ["Python Script", "JQuery","Django", "NodeJS"], "Django"),
-    new Question("Which is used for Connect To Database?", ["PHP", "HTML", "JS", "All"], "PHP"),
-    new Question("Webdevtrick.com is about..", ["Web Design", "Graphic Design", "SEO & Development", "All"], "All")
+    new Question("Which is the period of accounting year in Indian economics", ["April to March", "February to March ", "August to September", "December to January"], "April to March"),
+    new Question("Who officially first tried to compute the National Income?", ["Dadabhai Naoroji", "Dr. V.K.R.V Rao", "P.C Mahalanobis", "NSO"], "P.C Mahalanobis"),
+    new Question("Trade, Financial, Real state come under which sector under the economic survey?", ["Primary", "Secondary", "Tertiary", "None of them"], "Tertiary"),
+    new Question("Factor cost = ?", ["Market price – Net Indirect taxes", "Indirect taxes - subsidies", "GDP - Depreciation", "NDP + NFIA"], " Market price – Net Indirect taxes "),
+    new Question("Product method is also called…", ["Value added method", "Income method", "Distribution method", "Expenditure method"], " Value added method "),
+    new Question("In which year did CSO merge with NSSO", ["2012", "2019", "2014", "2008"], "2019"),
+    new Question("Which are NOT  the indices of Human development Report", ["MPI", "GDI", "GII", "None"], "None"),
+    new Question("The index value of HDI varies between?", ["0 and 1", "2 and 3", "1 and 10", "None"], "0 and 1"),
+    new Question("The Indian Heritage in Rajasthan", ["Jaipur city", "Rani ki Vav", "Humayun’s Tomb", "All"], "Jaipur city"),
+    new Question("Which is NOT an indirect tax", ["Vat", "Service tax", "Custom tax", "Income tax"], "Income tax"),
 ];
 
 // create quiz
